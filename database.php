@@ -3,20 +3,12 @@
 
 
 class Database{
-    // protected $db_engine = "mysql";
-    // protected $db_host = "localhost";
-    // protected $db_port = 3306;
-    // protected $db_username = "u376282936_m7mdalmalki";
-    // protected $db_password = "A1tQZKl?9";
-    // protected $db_name = "u376282936_exresearcher";
-    // public $database_connection;
-
     protected $db_engine = "mysql";
     protected $db_host = "localhost";
     protected $db_port = 3306;
     protected $db_username = "root";
     protected $db_password = "";
-    protected $db_name = "ourresearchers";
+    protected $db_name = "TEST";
     public $database_connection;
 
     function __construct(){
